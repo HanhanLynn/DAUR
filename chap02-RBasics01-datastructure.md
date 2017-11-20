@@ -492,7 +492,7 @@ factor_02 <- factor(c("male", "female", "male", "female"), levels = c("male", "f
 levels(factor_02)
 ```
 
-针对定序数据，可能需要指定因子的取值排序，使之成为有序因子。此时需使用参数`ordered = TURE`加以设定。
+针对定序数据，可能需要指定因子的取值排序，使之成为有序因子。此时需使用参数`ordered = TRUE`加以设定。
 
 ```{r}
 grade_01 <- factor(c("freshman", "sophomore", "junior", "senior"))
